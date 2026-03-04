@@ -99,7 +99,13 @@ p {
    NAVIGATION
    =========================== */
 
-.navbar {
+.logo img {
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
+   .navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -756,6 +762,83 @@ p {
     }
 
     .hero-content p {
+        font-size: 1rem;
+    }
+}
+
+/* === VIDEO HERO CAROUSEL-STYLE === */
+
+.video-hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-hero video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+.video-hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.8) 100%);
+    z-index: 1;
+}
+
+.video-hero .content {
+    position: absolute;
+    z-index: 2;
+    padding: 80px 60px;
+    max-width: 800px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+/* === SEPARATEUR === */
+
+.separator {
+    width: 100%;
+    height: 30px;
+    background-color: #ffffff;
+}
+
+.separator2 {
+    width: 100%;
+    height: 30px;
+    background-color: #000000;
+}
+
+/* === RESPONSIVE === */
+
+@media screen and (max-width: 768px) {
+    .video-hero {
+        height: 60vh;
+    }
+
+    .video-hero .content {
+        padding: 40px 30px;
+    }
+
+    .video-hero .game-title {
+        font-size: 2.5rem;
+    }
+
+    .video-hero .game-description {
         font-size: 1rem;
     }
 }
