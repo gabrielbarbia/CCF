@@ -17,7 +17,7 @@ Site web complet en HTML et CSS pur (sans JavaScript) avec les fonctionnalités 
 ```
 VOLTA/
 │
-├── index.html          # Page d'accueil (Français)
+├── index.html             # Page d'accueil (Français)
 ├── index-en.html          # Page d'accueil (Anglais)
 ├── about-fr.html          # Page À propos (Français)
 ├── about-en.html          # Page À propos (Anglais)
