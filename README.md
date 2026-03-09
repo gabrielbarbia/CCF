@@ -15,9 +15,9 @@ Site web complet en HTML et CSS pur (sans JavaScript) avec les fonctionnalités 
 ## 📁 Structure des fichiers
 
 ```
-portfolio/
+VOLTA/
 │
-├── index-fr.html          # Page d'accueil (Français)
+├── index.html          # Page d'accueil (Français)
 ├── index-en.html          # Page d'accueil (Anglais)
 ├── about-fr.html          # Page À propos (Français)
 ├── about-en.html          # Page À propos (Anglais)
@@ -33,7 +33,7 @@ portfolio/
 
 ## 🚀 Utilisation
 
-1. **Ouvrir le site** : Double-cliquez sur `index-fr.html` ou `index-en.html` pour démarrer
+1. **Ouvrir le site** : Cliquez sur `https://ccf-lovat.vercel.app/index.html` pour démarrer
 2. **Navigation** : Utilisez la barre de navigation en haut pour naviguer entre les pages
 3. **Changement de langue** : Cliquez sur FR/EN en haut à droite de chaque page
 
@@ -84,43 +84,12 @@ portfolio/
 - Sections : 100px de padding vertical
 - Grilles : 40-60px d'écart entre les éléments
 
-## 🔧 Personnalisation
-
-### Modifier les couleurs
-Dans `styles.css`, modifie les variables CSS au début du fichier :
-```css
-:root {
-    --primary-color: #1a1a1a;
-    --secondary-color: #f5f5f5;
-    --accent-color: #2d2d2d;
-    /* ... */
-}
-```
-
-### Changer les images
-Dans les fichiers HTML, remplace les URLs Unsplash par tes propres images :
-```html
-<div class="parallax-bg" style="background-image: url('TON_IMAGE.jpg');"></div>
-```
-
-### Modifier la vidéo
-Dans `video-fr.html` et `video-en.html`, remplace l'URL de la vidéo :
-```html
-<source src="TON_FICHIER_VIDEO.mp4" type="video/mp4">
-```
 
 ## 📱 Responsive Breakpoints
 
 - **Mobile** : < 480px
 - **Tablette** : 481px - 768px
 - **Desktop** : > 768px
-
-## ⚡ Performance
-
-- Images optimisées via Unsplash CDN
-- CSS pur (pas de framework lourd)
-- Transitions GPU-accélérées
-- Chargement minimal
 
 ## 📝 Notes importantes
 
@@ -157,5 +126,3 @@ Dans `video-fr.html` et `video-en.html`, remplace l'URL de la vidéo :
 
 ---
 
-**Projet réalisé en HTML5 et CSS3 pur**
-Pas de frameworks, pas de JavaScript, juste du code natif ! 🎯
